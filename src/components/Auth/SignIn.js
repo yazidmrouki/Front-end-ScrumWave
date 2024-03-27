@@ -52,7 +52,7 @@ function SignIn (){
 
     const handleForgotPasswordClick = () => {
         // Rediriger l'utilisateur vers la page de récupération de mot de passe
-        window.location.href = `${process.env.PUBLIC_URL}/Reset-password`;
+        window.location.href = `${process.env.PUBLIC_URL}/Verifier-email`;
     };
 
     return(
