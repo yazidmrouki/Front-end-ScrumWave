@@ -7,7 +7,8 @@ import PersonalInformations from "../../components/Employees/PersonalInformation
 import CurrentTask from "../../components/Employees/CurrentTask";
 import ExperienceCard from "../../components/Employees/ExperienceCard";
 import { Modal } from "react-bootstrap";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function EmployeeProfile() {
 
     const [ismodal, setIsmodal] = useState(false);
@@ -19,6 +20,7 @@ function EmployeeProfile() {
             <div className="row g-3">
                 <div className="col-xl-8 col-lg-12 col-md-12">
                     <ClientProfileCard designation="Web Developer" details="Employee Id : 00001" />
+                    <ToastContainer />
                     <h6 className="fw-bold  py-3 mb-3">Current Work Project</h6>
                     <div className="teachercourse-list mb-3">
                         <div className="row g-3 gy-5 pt-3 row-deck">
