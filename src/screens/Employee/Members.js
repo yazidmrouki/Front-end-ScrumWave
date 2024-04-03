@@ -3,7 +3,8 @@ import { Dropdown, Modal } from "react-bootstrap";
 import OurClients from "../../components/Clients/OurClients";
 import PageHeader from "../../components/common/PageHeader";
 import { MembersData } from "../../components/Data/AppData";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Members() {
 
     const [isModal, setIsModal] = useState(false);
