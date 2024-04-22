@@ -125,8 +125,8 @@ function Header() {
                                         <div className="d-flex py-1">
                                             <img className="avatar rounded-circle" src={ProfileImg} alt="profile" />
                                             <div className="flex-fill ms-3">
-                                                <p className="mb-0"><span className="font-weight-bold">Dylan Hunter</span></p>
-                                                <small className="">Dylan.hunter@gmail.com</small>
+                                                <p className="mb-0"><span className="font-weight-bold">Nasr Med TAher</span></p>
+                                                <small className="">nasrmohammedtaher01@gmail.Com</small>
                                             </div>
                                         </div>
 

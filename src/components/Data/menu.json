@@ -317,6 +317,17 @@
                     "isCategory": false,
                     "isApp": false,
                     "children": []
+                },
+                {
+                    "name": "meet",
+                    "routerLink": ["meet"],
+                    "identifier": "meet",
+                    "ironclass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp":false,
+                    "children":[] 
+                
                 }
             ]
         },

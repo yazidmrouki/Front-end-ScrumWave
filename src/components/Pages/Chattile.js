@@ -6,6 +6,7 @@ import Avatar6 from "../../assets/images/xs/avatar6.jpg";
 import Avatar7 from "../../assets/images/xs/avatar7.jpg";
 import Avatar10 from "../../assets/images/xs/avatar10.jpg";
 import { Dropdown } from "react-bootstrap";
+import SimplePeer from "simple-peer"; 
 
 function Chattile(props) {
     const { data } = props;
